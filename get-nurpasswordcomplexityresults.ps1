@@ -1,3 +1,7 @@
+#####################################################################
+#PLEASE RUN THIS SECONDARILY TO THE ITGLUEBACKUP PoSH SCRIPT.
+#!!!!REMEMBER TO CHANGE PATH TO YOUR ROOT DIRECTORY 
+#####################################################################
 $report = [System.Collections.ArrayList]@()
 $files = Get-ChildItem *.xlsx -path "c:\PathToYourRootDirectory\*" -Recurse
 ForEach ($file in $files) {
