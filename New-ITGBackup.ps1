@@ -1,7 +1,9 @@
 #####################################################################
-#The unofficial Kelvin Tegelaar IT-Glue Backup script. Run this script whenever you want to create a backup of the ITGlue database.
-#Creates a file called "password.html" with all passwords in Plain-text. please only store in secure location.
-#Creates folders per organisation, and copies flexible assets there as HTML table  &amp; CSV file for data portability.
+#Run this script whenever you want to create a backup of the ITGlue database.
+#Creates a file called "password.html" & "password.xlsx" with all passwords in Plain-text. please only store in secure location.
+#Creates folders per organisation, and copies flexible assets there as HTML table & CSV file for data portability.
+#Run New-ITGBackup first to get all passwords, then complexity PoSH script to check passwords. 
+#PLEASE UPDATE APIKEY BEFORE RUNNING
 $APIKEy = "xxxxxxxx"
 $APIEndpoint = "https://api.itglue.com"
 $ExportDir = "C:\ImageNet\ITGBackup"
