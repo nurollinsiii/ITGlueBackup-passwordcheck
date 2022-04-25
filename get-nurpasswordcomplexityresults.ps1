@@ -1,5 +1,5 @@
 $report = [System.Collections.ArrayList]@()
-$files = Get-ChildItem *.xlsx -path "c:\Users\nealzo\Downloads\PasswordSample\*" -Recurse
+$files = Get-ChildItem *.xlsx -path "c:\PathToYourRootDirectory\*" -Recurse
 ForEach ($file in $files) {
     $test = import-excel $file
     $regex = "[^a-zA-Z0-9]"
