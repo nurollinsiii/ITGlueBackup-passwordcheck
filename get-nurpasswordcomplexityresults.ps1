@@ -26,4 +26,4 @@ ForEach ($file in $files) {
         $report.add($objDat) | Out-Null
     }
 }
-$report | Export-excel -path "c:\Users\nealzo\Downloads\PasswordSample\Final_exported_list_$(Get-Date -f yyyy_MM_dd).xlsx"
+$report | Export-excel -path "c:\Hello\PasswordSample\Final_exported_list_$(Get-Date -f yyyy_MM_dd).xlsx"
