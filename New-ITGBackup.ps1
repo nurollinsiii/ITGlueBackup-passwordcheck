@@ -6,7 +6,7 @@
 #PLEASE UPDATE APIKEY BEFORE RUNNING
 $APIKEy = "xxxxxxxx"
 $APIEndpoint = "https://api.itglue.com"
-$ExportDir = "C:\ImageNet\ITGBackup"
+$ExportDir = "C:\Hello\ITGBackup"
 #####################################################################
 if (!(Test-Path $ExportDir)) {
     Write-Host "Creating backup directory" -ForegroundColor Green
